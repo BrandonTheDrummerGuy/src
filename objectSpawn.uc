@@ -15,6 +15,6 @@ function CreateNewObject()
 	{
 		SetHidden(false); //allows the object to be visible to the player in-game
 		SetDrawScale3D(Vect(1.f, 1.f, 1.f)); //sets the size of the object in 3D space
-		CreateNavMeshObstatcle();//spawns the object in 3D space (?)
+		CreateNavMeshObstacle();//spawns the object in 3D space (?)
 	}
 }
